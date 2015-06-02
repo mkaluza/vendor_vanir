@@ -106,7 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/vanir/proprietary/common/init.vanir.rc:root/init.vanir.rc \
     vendor/vanir/proprietary/common/bin/otasigcheck.sh:system/bin/otasigcheck.sh \
     vendor/vanir/proprietary/common/bin/sysinit:system/bin/sysinit \
-    vendor/vanir/proprietary/common/etc/init.d/00firsties:system/etc/init.d/00firsties \
     vendor/vanir/proprietary/common/xbin/purgethumbnails:system/xbin/purgethumbnails \
     vendor/vanir/proprietary/common/etc/init.d/20purgethumbnailsonce:system/etc/init.d/20purgethumbnailsonce
 
@@ -146,8 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/vanir/proprietary/common/etc/init.d/09cron:system/etc/init.d/09cron \
     vendor/vanir/proprietary/common/etc/init.d/98SONIC_SHOCK:system/etc/init.d/98SONIC_SHOCK \
     vendor/vanir/proprietary/common/etc/init.d/99vanir:system/etc/init.d/99vanir \
-    vendor/vanir/proprietary/common/etc/cron/cron.minutely/00nicetweaks:/system/etc/cron/cron.minutely/00nicetweaks \
-    vendor/vanir/proprietary/common/etc/cron/cron.daily/00sqlitespeed:/system/etc/cron/cron.daily/00sqlitespeed
+    vendor/vanir/proprietary/common/etc/cron/cron.weekly/00sqlitespeed:/system/etc/cron/cron.weekly/00sqlitespeed
 
 # system and persistent /data boot.d Tweaks - triggered when ro.boot_complete is set to 1
 PRODUCT_COPY_FILES += \
